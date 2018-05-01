@@ -2,8 +2,8 @@
 
 body {
     background-image: url("msu_background.jpg.jpeg");
-background-repeat: no-repeat;
-background-attachment: fixed;
+background-repeat: repeat-x;
+
 
 }
 
