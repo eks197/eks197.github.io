@@ -2,7 +2,7 @@
 
 body
 {
-background-image: url("background.jpg");
+background: linear-gradient(345 deg, rgb(172,232,172), rgb(21,35,21) 80%);
 }
 
 h1 {
