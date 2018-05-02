@@ -19,8 +19,16 @@ html{
     width: 50px;
     position: absolute;
     left: 0px;
-    bottom: 150px;
+    bottom: 50px;
 }
+#msu_pic{
+ width: 400px;
+}
+
+#mizzou_pic{
+width: 400px;
+}
+
 #redlight, #greenlight {
     max-height: 300px;
     margin-left: auto;
