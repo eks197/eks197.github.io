@@ -6,3 +6,23 @@ html{
     height:100%;
     width:100%;
 }
+
+#bear {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#tiger {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0px;
+    bottom: 150px;
+}
+#redlight, #greenlight {
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
