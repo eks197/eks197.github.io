@@ -34,3 +34,7 @@ width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
+#greenlight{
+display: none;
+cursor: default;
+}

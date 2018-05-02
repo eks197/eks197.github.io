@@ -6,6 +6,14 @@ var placeB;
 var placeT;
 var msu_pic = document.getElementById('msuPic');
 var mizzou_pic = document.getElementById('mizzouPic');
+var lightR =document.getElementById('redlight');
+var lightG =document.getElementById('greenlight');
+
+function lightOn() 
+{
+lightR.style.display = 'none';
+lightG.style.display = 'block';
+}
 
 function initialize()
 {
@@ -16,17 +24,13 @@ msu.style.left = placeB + 'px';
 mizzou.style.left = placeT + 'px';
 msu_pic.src = "msu_bear.png";
 mizzou_pic.src = "mizzou_tiger.png";
-msu_pic.style.display = "block";
-mizzou_pic.display = "block";
-document.getElementById('redlight').style.display = "block";
-document.getElementById('greenlight').style.display = "none";
+
+lightOn();
 }
 
 function startRace()
 {
 initialize();
-document.getElementById('redlight').style.display = "none";
-document.getElementById('greenlight').style.display = "block";
 
 var timer = setInterval(frame, 100);
 function frame() 
@@ -35,8 +39,8 @@ function frame()
       clearInterval(timer);
       posB > posG ? msuWin() : mizzouWin();
     } else {
-      var randB = Math.floor(Math.random() * 25);
-      var randT = Math.floor(Math.random() * 25);
+      var randB = Math.floor(Math.random() * 15);
+      var randT = Math.floor(Math.random() * 15);
       placeB += randB;
       placeT += randT;
       msu.style.left = placeB + 'px';

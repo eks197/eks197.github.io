@@ -3,18 +3,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 Template">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>The Great Race!</title>
   
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
-<script src="race.js">
-</script>
+<script src="race.js" defer></script>
 </head>
 
 <body>
-<input type="image" src="tlight_r.jpg" id="redlight" onclick = "startRace ()">
+<input type="image" src="tlight_r.jpg" id="redlight" onclick = "lightOn ()">
 <input type="image" src="tlight_g.jpg" id="greenlight">
 <div id = "msu">	
 	<img src="msu_bear.png" id="msu">
@@ -22,5 +21,7 @@
 <div id = "mizzou">
 	<img src="mizzou_tiger.png" id="mizzou">
 </div>
+<script src="race.js">
+</script>
 </body>
 </html>
