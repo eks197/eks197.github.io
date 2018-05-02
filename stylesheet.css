@@ -1,10 +1,8 @@
 /* stylesheet.css*/
 
-body
-{
-background: linear-gradient(345 deg, rgb(172,232,172), rgb(21,35,21) 80%);
-}
-
-h1 {
-    
+html{
+    background: url('background_wood.png') repeat-x 0 0 scroll;
+    background-color:#0C0C0C;
+    height:100%;
+    width:100%;
 }
