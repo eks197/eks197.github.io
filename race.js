@@ -2,6 +2,7 @@
 
 var msu = document.getElementById('msu');
 var mizzou = document.getElementById('mizzou');
+var flag = document.getElementById('flag');
 var placeB;
 var placeT;
 var lightR = document.getElementById('redlight');
@@ -16,6 +17,7 @@ function initialize() {
 
   placeB = 0;
   placeT = 0;
+  winner.style.display = 'none';
   msu.style.paddingLeft = placeB + '%';
   mizzou.style.paddingLeft = placeT + '%';
 
@@ -41,8 +43,13 @@ function startRace() {
 
 function msuWin() {
   window.alert("Go Bears!");
+  winner.style.display = 'block';
+  document.getElementById("winnerText").innerHTML="BEARS!"
 }
 
 function mizzouWin() {
-  window.alert("Dang it Mizzou Won :(");
+  window.alert("Dang it Mizzou Won :(");  
+  winner.style.display = 'block';
+  document.getElementById("winnerText").innerHTML="TIGERS!"
+
 }

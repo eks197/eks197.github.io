@@ -7,20 +7,6 @@ html{
     width:100%;
 }
 
-#bear {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-}
-#tiger {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    left: 0px;
-    bottom: 50px;
-}
 #msu_pic{
  width: 400px;
 }
@@ -33,8 +19,18 @@ width: 400px;
     max-height: 300px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 #greenlight{
 display: none;
 cursor: default;
+}
+
+#winner{
+    display: none;
+}
+
+#flagPic{
+    height:250px;
+    width: 250px;
 }
